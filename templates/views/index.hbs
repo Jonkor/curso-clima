@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Weather</title>
+    <link rel="icon" href="/img/weather.png">
+    <link rel="stylesheet" href="/css/styles.css">
+
+
+
+  </head>
+  <body>
+    <div class="main-content">
+      {{>header}}
+      <p>Para el clima</p>
+      <form>
+        <input placeholder="Lugar">
+        <button>Search</button>
+      </form>
+
+      <p id="mensaje-1"></p>
+      <p id="mensaje-2"></p>
+    </div>
+    {{>footer}}
+    <script src="/js/app.js"></script>
+
+  </body>
+</html>
